@@ -1,0 +1,146 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color:#D1CF90; 
+  font-family: fantasy;
+}
+
+p {
+  font-size: 25px;
+  text-align: center;
+}
+
+/* STYLE TEXT */
+main { 
+  padding-top: 25px;      
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+ 
+  margin-left: 10%;
+  margin-right: 10%;          
+}
+h1 {
+  color: #650D1B;
+  font-family: fantasy;
+  text-align: center;
+  font-size: 45px;
+}
+
+h2 {
+  color: #650D1B;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+h3{
+  text-align:center;
+  font-size: 25px;
+}
+.attribution {
+  font-size: 16px;
+  text-align: center;
+  
+  padding-top: 10px;
+}
+
+/* STYLE IMAGES */
+
+
+/*link colors*/
+a {
+  color:#650D1B;
+  text-decoration: none;
+}
+
+
+/* STYLE NAV BAR */
+.navigation ul {
+  list-style-type: none;
+  background-color: #C492B1;
+  overflow: hidden;
+  padding:1em ;
+  font-family: fantasy;
+  text-align: right;
+  font-size: 150%;
+}
+
+.navigation li {
+  display: inline;
+} 
+
+
+
+li.nav-item a {   
+  font-size: 20px;
+  color: rgb(66, 15, 114);
+  
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+li.nav-item a:hover {
+background-color:purple;
+color:#D1CF90;
+
+}
+/* STYLE BUTTONS */
+#myBtn{
+  background: #C492B1;
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+  color: #000;
+  font-size: 1em;  
+
+}
+/* STYLE GENERATE A FACT KEY FEATURE */
+.genFact {
+  background: #FAC748;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  font-family: "fantasy";
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1em;
+  color: #000;
+}
+
+#fact {
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: "fantasy";
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.2em;
+  color: #650D1B;
+
+}
